@@ -30,10 +30,10 @@ A symmetry group is a way to describe how patterns repeat or stay the same when 
 In total, we have 17 different patterns. Let’s look at two common symmetry groups we’ll be using in this project. Can you spot a difference?
 
 <kbd align="center">
-<img src="docs/P1_example_blue.png" width="200">
+<img src="docs/source/_static/P1_example_blue.png" width="200">
 </kbd>
 <kbd align="center">
-<img src="docs/P2_example_blue.png" width="200">
+<img src="docs/source/_static/P2_example_blue.png" width="200">
 </kbd>
 
 ### P1 Symmetry Group — No symmetry
@@ -60,13 +60,13 @@ To train an ML model, we use the [Machine Learning for Kids](https://machinelear
 The following is the screenshot of the screen. 
 
 <kbd align="center">
-<img src="docs/ml4kids_new_project.png" width="1000">
+<img src="docs/source/_static/ml4kids_new_project.png" width="1000">
 </kbd>
 
   After you hit `CREATE`, you should see the following screen. 
   
 <kbd align="center">
-<img src="docs/ml4kids_project_home.png" width="1000">
+<img src="docs/source/_static/ml4kids_project_home.png" width="1000">
 </kbd>
 
   3. **Train the model:**
@@ -76,7 +76,7 @@ The following is the screenshot of the screen.
        
 
 <kbd align="center">
-<img src="docs/ml4kids_train_w_arrow.png" width="1000">
+<img src="docs/source/_static/ml4kids_train_w_arrow.png" width="1000">
 </kbd>
 
 You can drag P1 images from [here](https://www.crystalmathatnyu.org/p1_general) and P2 images from [here](https://www.crystalmathatnyu.org/p2_general) to use for training.
@@ -85,11 +85,11 @@ Select all the images at once by dragging your mouse over them, then drag them i
 Here's how to select and drag the images:
 
 <kbd align="center">
-<img src="docs/Before_drag_w_cursor.png" width="400">
+<img src="docs/source/_static/Before_drag_w_cursor.png" width="400">
 </kbd>
 
 <kbd align="center">
-<img src="docs/After_drag_w_cursor.png" width="400">
+<img src="docs/source/_static/After_drag_w_cursor.png" width="400">
 </kbd>
 
   4. **Train & Test the model:**
@@ -108,7 +108,7 @@ Here's how to select and drag the images:
 
 
 <kbd align="center">
-<img src="docs/scratch_init.png" width="1000">
+<img src="docs/source/_static/scratch_init.png" width="1000">
 </kbd>
 
 ## Writing a *Scratch* program
@@ -123,7 +123,7 @@ As a starting point, you can download the *scratch* example code [here](https://
 
 
 <kbd align="center">
-<img src="docs/scrtach_with_template.png" width="1000">
+<img src="docs/source/_static/scrtach_with_template.png" width="1000">
 </kbd>
 
 
@@ -133,12 +133,12 @@ The `dataset` folder contains multiple examples of image classification. The fol
 
 | Image | Symmetry Group |Control and Biased training set | # of images used for training | Observation | 
 | :-------------: | ------------- |------------- |------------- |------------- |
-|<img src="basis_images/deer.png"  width="50"> Deer| P1 & P2  | Control set: Colored and black-and-white images. <br>Biased set: Only black-and-white. | 30 | Control classifies color images; biased does not. |
-| <img src="basis_images/bear_paw.png"  width="50"> Paw | P1 & P2  | Control set: Colored and black-and-white images. <br>Biased set: Only black-and-white.  | 20 | Control classifies color images; biased does not. |
-|  <img src="basis_images/banana.png"  width="50"> Banana| P1 & P2  | Control set: Regular & 90° rotated images. <br>Biased set: Only regular images. | 30 | Control classifies rotated images; biased does not. |
-|  <img src="basis_images/horse.png"  width="50"> Horse| P1 & P2  | Control set: Regular & zoomed images. <br>Biased set: Only regular images. | 60 |Control classifies zoomed images; biased does not. |
-|   <img src="basis_images/shark.png"  width="50">Shark| P1 & P2  |Control set: Regular & zoomed images. <br>Biased set: Only regular images. | 30 | Control classifies zoomed images; biased does not. |
-|  <img src="basis_images/triangle.png"  width="50">triangle| P1 & P2  | Control set: Regular, zoomed, rotated images. <br>Biased set: Only regular images. | 90 | Control classifies zoomed/rotated images; biased does not classify rotated images. |
+|<img src="docs/source/_static/deer.png"  width="50"> Deer| P1 & P2  | Control set: Colored and black-and-white images. <br>Biased set: Only black-and-white. | 30 | Control classifies color images; biased does not. |
+| <img src="docs/source/_static/bear_paw.png"  width="50"> Paw | P1 & P2  | Control set: Colored and black-and-white images. <br>Biased set: Only black-and-white.  | 20 | Control classifies color images; biased does not. |
+|  <img src="docs/source/_static/banana.png"  width="50"> Banana| P1 & P2  | Control set: Regular & 90° rotated images. <br>Biased set: Only regular images. | 30 | Control classifies rotated images; biased does not. |
+|  <img src="docs/source/_static/horse.png"  width="50"> Horse| P1 & P2  | Control set: Regular & zoomed images. <br>Biased set: Only regular images. | 60 |Control classifies zoomed images; biased does not. |
+|   <img src="docs/source/_static/shark.png"  width="50">Shark| P1 & P2  |Control set: Regular & zoomed images. <br>Biased set: Only regular images. | 30 | Control classifies zoomed images; biased does not. |
+|  <img src="docs/source/_static/triangle.png"  width="50">triangle| P1 & P2  | Control set: Regular, zoomed, rotated images. <br>Biased set: Only regular images. | 90 | Control classifies zoomed/rotated images; biased does not classify rotated images. |
 
 
 
