@@ -1,5 +1,7 @@
 # ML for kids x Scratch - Symmetry Project
 
+[![docs](https://readthedocs.org/projects/docs/badge/?version=latest)](https://temp-outreach.readthedocs.io/en/latest/)
+
 Welcome to the Symmetry Explorer! This project helps you learn about symmetry in a fun way using machine learning and colorful patterns.
 
 This project combines [Machine Learning for Kids](https://machinelearningforkids.co.uk) platform and [Scratch](https://scratch.mit.edu/) platform to perform pattern classification. There are three parts to this:
