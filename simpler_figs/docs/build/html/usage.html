@@ -1,0 +1,346 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Using the Symmetry Code &mdash; ML4kidsOutreach 2025 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="ML4Kids and Scratch Integration" href="ml4kids_and_scratch.html" />
+    <link rel="prev" title="Getting Started" href="getting_started.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> ML4kidsOutreach
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Using the Symmetry Code</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#notebook-overview">Notebook Overview</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#cell-1-load-modules">Cell 1: Load Modules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#cell-2-upload-user-image">Cell 2: Upload User Image</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#cell-3-define-wallpaper-group">Cell 3: Define wallpaper group</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#cell-4-test-functions">Cell 4: Test functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#cell-5-define-wallpaper-group">Cell 5: Define wallpaper group</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#cell-6-define-parameter">Cell 6: Define parameter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#cell-7-download-in-zip-file">Cell 7: Download in zip file</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ml4kids_and_scratch.html">ML4Kids and Scratch Integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sample_dataset.html">Sample Dataset</a></li>
+<li class="toctree-l1"><a class="reference internal" href="project_structure.html">Project Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">ML4kidsOutreach</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Using the Symmetry Code</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/usage.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="using-the-symmetry-code">
+<h1>Using the Symmetry Code<a class="headerlink" href="#using-the-symmetry-code" title="Permalink to this headline">¶</a></h1>
+<p>The Google Colab notebook allows you to generate symmetric wallpapers of your desired image using tiling and transformation.</p>
+<p>Currently supported wallpaper groups:
+- P1
+- P2
+- P4
+- Pm
+- Pg
+- P2mm
+- P2mg
+- P2gg
+- Cm
+- P3m</p>
+<p>Notebook link:
+<a class="reference external" href="https://colab.research.google.com/github/rogalj/dmref-outreach/blob/main/mlforkids/patterns/simpler_figs/wallpaper_symmetry_generator.ipynb">wallpaper_symmetry_generator.ipynb</a></p>
+<div class="section" id="notebook-overview">
+<h2>Notebook Overview<a class="headerlink" href="#notebook-overview" title="Permalink to this headline">¶</a></h2>
+<p>The notebook is structured into several cells. Here’s what each one does:</p>
+<div class="section" id="cell-1-load-modules">
+<h3>Cell 1: Load Modules<a class="headerlink" href="#cell-1-load-modules" title="Permalink to this headline">¶</a></h3>
+<p>Imports all necessary Python libraries, including:
+- <cite>google.colab</cite> for uploading images directly from the user’s computer
+- <cite>PIL</cite> (Python Imaging Library) — for opening and processing image files
+- <cite>matplotlib</cite> for displaying images and plots
+- <cite>numpy</cite> for handling numerical arrays and computations
+- <cite>scipy.ndimage</cite> for zooming and other image computations
+- <cite>random</cite> for generating random numbers
+- <cite>.transforms.Bbox</cite> — for defining bounding boxes in image plots
+- <cite>os</cite> for saving output files</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">google.colab</span> <span class="kn">import</span> <span class="n">files</span>
+<span class="kn">from</span> <span class="nn">PIL</span> <span class="kn">import</span> <span class="n">Image</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">scipy.ndimage</span> <span class="kn">import</span> <span class="n">zoom</span>
+<span class="kn">import</span> <span class="nn">random</span>
+<span class="kn">from</span> <span class="nn">matplotlib.transforms</span> <span class="kn">import</span> <span class="n">Bbox</span>
+<span class="kn">import</span> <span class="nn">os</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="cell-2-upload-user-image">
+<h3>Cell 2: Upload User Image<a class="headerlink" href="#cell-2-upload-user-image" title="Permalink to this headline">¶</a></h3>
+<p>Allows the user to upload an image from their local machine. The image should be in square and have a transparent background.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">uploaded</span> <span class="o">=</span> <span class="n">files</span><span class="o">.</span><span class="n">upload</span><span class="p">()</span>
+
+<span class="k">for</span> <span class="n">fn</span> <span class="ow">in</span> <span class="n">uploaded</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+    <span class="n">img_path</span> <span class="o">=</span> <span class="n">fn</span>
+    <span class="n">img</span> <span class="o">=</span> <span class="n">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">img_path</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;This is the uploaded image.&quot;</span><span class="p">)</span>
+<span class="n">img</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="cell-3-define-wallpaper-group">
+<h3>Cell 3: Define wallpaper group<a class="headerlink" href="#cell-3-define-wallpaper-group" title="Permalink to this headline">¶</a></h3>
+<p>Defines the functions needed to generate specific wallpaper symmetry groups.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#Mirror functions</span>
+<span class="k">def</span> <span class="nf">create_mirror_left_right</span><span class="p">(</span><span class="n">img</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">create_mirror_top_bottom</span><span class="p">(</span><span class="n">img</span><span class="p">):</span>
+
+<span class="c1">#Tiling functions for wallpaper groups.</span>
+<span class="k">def</span> <span class="nf">tile_image_p1</span><span class="p">(</span><span class="n">img_path</span><span class="p">,</span> <span class="n">rows</span><span class="p">,</span> <span class="n">cols</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">tile_image_p2</span><span class="p">(</span><span class="n">img_path</span><span class="p">,</span> <span class="n">rows</span><span class="p">,</span> <span class="n">cols</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">tile_image_pm</span><span class="p">(</span><span class="n">img_path</span><span class="p">,</span> <span class="n">rows</span><span class="p">,</span> <span class="n">cols</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">tile_image_pg</span><span class="p">(</span><span class="n">img_path</span><span class="p">,</span> <span class="n">rows</span><span class="p">,</span> <span class="n">cols</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">tile_image_p2mm</span><span class="p">(</span><span class="n">img_path</span><span class="p">,</span> <span class="n">rows</span><span class="p">,</span> <span class="n">cols</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">tile_image_p2mg</span><span class="p">(</span><span class="n">img_path</span><span class="p">,</span> <span class="n">rows</span><span class="p">,</span> <span class="n">cols</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">tile_image_p2gg</span><span class="p">(</span><span class="n">img_path</span><span class="p">,</span> <span class="n">rows</span><span class="p">,</span> <span class="n">cols</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">tile_image_p4</span><span class="p">(</span><span class="n">img_path</span><span class="p">,</span> <span class="n">rows</span><span class="p">,</span> <span class="n">cols</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">tile_image_p3m</span><span class="p">(</span><span class="n">img_path</span><span class="p">,</span> <span class="n">rows</span><span class="p">,</span> <span class="n">cols</span><span class="p">):</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="cell-4-test-functions">
+<h3>Cell 4: Test functions<a class="headerlink" href="#cell-4-test-functions" title="Permalink to this headline">¶</a></h3>
+<p>Test and visualize the tiled output generated from the functions defined above.</p>
+</div>
+<div class="section" id="cell-5-define-wallpaper-group">
+<h3>Cell 5: Define wallpaper group<a class="headerlink" href="#cell-5-define-wallpaper-group" title="Permalink to this headline">¶</a></h3>
+<p>Provides helper functions for image zooming, color transformation, and rotation.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#This function zooms in the image.</span>
+<span class="k">def</span> <span class="nf">zoom_image</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="n">zoom_factor</span><span class="p">,</span> <span class="n">final_size</span><span class="p">,</span> <span class="n">color</span><span class="p">,</span><span class="n">color_rand</span><span class="p">,</span> <span class="n">color_lst</span><span class="p">,</span><span class="n">ROT</span><span class="p">,</span><span class="n">ROT_rand</span><span class="p">,</span><span class="n">rot</span><span class="p">):</span>
+<span class="c1">#This function change the color of the image to random color.</span>
+<span class="k">def</span> <span class="nf">color_change</span><span class="p">(</span><span class="n">img</span><span class="p">):</span>
+<span class="c1">#This function change the image to the user defined color.</span>
+<span class="k">def</span> <span class="nf">set_color</span><span class="p">(</span><span class="n">img</span><span class="p">,</span><span class="n">color_lst</span><span class="p">):</span>
+<span class="c1">#This function rotates the image.</span>
+<span class="k">def</span> <span class="nf">rotate_img</span><span class="p">(</span><span class="n">img_array</span><span class="p">,</span><span class="n">ROT_rand</span><span class="p">,</span><span class="n">rot</span><span class="p">):</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="cell-6-define-parameter">
+<h3>Cell 6: Define parameter<a class="headerlink" href="#cell-6-define-parameter" title="Permalink to this headline">¶</a></h3>
+<p>Customize the generation with the following parameters:</p>
+<ul class="simple">
+<li><p><strong>sym_lst</strong>: List of desired symmetry types. Please choose from [“p1”, “p2”, “p4”, “pm”, “pg”, “p2mm”, “p2mg”, “p2gg”]</p></li>
+<li><p><strong>Zoom</strong>: <cite>True</cite> to random zoom, <cite>False</cite> to keep the original size.</p></li>
+<li><p><strong>zoom_ratio</strong>: Ratio of zooming. When ratio is 1, there will be no zoom.</p></li>
+<li><p><strong>COLOR</strong>: <cite>True</cite> to apply color changes, <cite>False</cite> to keep the original color.</p></li>
+<li><p><strong>COLOR_rand</strong>: <cite>True</cite> for random color, <cite>False</cite> to use specific color.</p></li>
+<li><p><strong>color_lst</strong>: RGB color list. Default color is purple.</p></li>
+<li><p><strong>ROT</strong>: <cite>True</cite> to apply rotation, <cite>False</cite> to skip.</p></li>
+<li><p><strong>ROT_rand</strong>: <cite>True</cite> for random angle, <cite>False</cite> for a fixed rotation.</p></li>
+<li><p><strong>rot_lst</strong>: Rotation angle in degree.</p></li>
+<li><p><strong>out_dir</strong>: Output directory name Default is “train”</p></li>
+<li><p><strong>user_name_lst</strong>: Base name for output images.</p></li>
+<li><p><strong>N_img</strong>: Number of images to generate..</p></li>
+<li><p><strong>random.seed</strong>: Set seed for reproducibility.</p></li>
+<li><p><strong>rep</strong>: Number of image replication.</p></li>
+<li><p><strong>final_size</strong>: Output image dimensions in pixels.</p></li>
+</ul>
+</div>
+<div class="section" id="cell-7-download-in-zip-file">
+<h3>Cell 7: Download in zip file<a class="headerlink" href="#cell-7-download-in-zip-file" title="Permalink to this headline">¶</a></h3>
+<p>Compresses the output images and downloads them as a zip archive.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">files</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="n">output_zip</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="ml4kids_and_scratch.html" class="btn btn-neutral float-right" title="ML4Kids and Scratch Integration" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="getting_started.html" class="btn btn-neutral float-left" title="Getting Started" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2025, Daisuke Kuroshima.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
