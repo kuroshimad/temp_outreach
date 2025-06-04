@@ -33,12 +33,12 @@ A symmetry group describes how patterns repeat or remain invariant under:
 
 There are 17 wallpaper symmetry groups in total. This project uses two examples:
 
-.. figure:: docs/P1_example_blue.png
+.. figure:: _static/P1_example_blue.png
    :width: 200px
    :align: center
    :alt: P1 symmetry example
 
-.. figure:: docs/P2_example_blue.png
+.. figure:: _static/P2_example_blue.png
    :width: 200px
    :align: center
    :alt: P2 symmetry example
@@ -74,13 +74,13 @@ To train a model, we use the `Machine Learning for Kids <https://machinelearning
    - Select **In your web browser** as storage
    - Click **CREATE**
 
-.. figure:: docs/ml4kids_new_project.png
+.. figure:: _static/ml4kids_new_project.png
    :width: 1000px
    :align: center
 
 After clicking **CREATE**, you should see this screen:
 
-.. figure:: docs/ml4kids_project_home.png
+.. figure:: _static/ml4kids_project_home.png
    :width: 1000px
    :align: center
 
@@ -89,7 +89,7 @@ After clicking **CREATE**, you should see this screen:
    - Click **Add new label** (top right) to create classes
    - Add `P1` and `P2` as your labels
 
-.. figure:: docs/ml4kids_train_w_arrow.png
+.. figure:: _static/ml4kids_train_w_arrow.png
    :width: 1000px
    :align: center
 
@@ -99,11 +99,11 @@ Use images from:
 
 Drag-and-drop selected images into their corresponding classes:
 
-.. figure:: docs/Before_drag_w_cursor.png
+.. figure:: _static/Before_drag_w_cursor.png
    :width: 400px
    :align: center
 
-.. figure:: docs/After_drag_w_cursor.png
+.. figure:: _static/After_drag_w_cursor.png
    :width: 400px
    :align: center
 
@@ -118,7 +118,7 @@ Drag-and-drop selected images into their corresponding classes:
    - Click **Make** (③)
    - Click **Open in Scratch 3** to launch Scratch with your ML model linked
 
-.. figure:: docs/scratch_init.png
+.. figure:: _static/scratch_init.png
    :width: 1000px
    :align: center
 
@@ -139,7 +139,7 @@ Download the Scratch example project here:
    - Insert ``recognise image costume image (confidence)`` into the ``set conf to`` block
    - Insert ``recognise image costume image = P1`` or ``= P2`` in the ``if`` condition
 
-.. figure:: docs/scrtach_with_template.png
+.. figure:: _static/scrtach_with_template.png
    :width: 1000px
    :align: center
 
@@ -159,42 +159,42 @@ The ``dataset`` folder contains image classification examples. Summary:
      - Training Set
      - # of Images Used
      - Observation
-   * - .. image:: basis_images/deer.png
+   * - .. image:: _static/deer.png
           :width: 50px
      - P1 & P2
      - Control: colored and B&W  
        Biased: only B&W
      - 30
      - Control classifies color images; biased does not.
-   * - .. image:: basis_images/bear_paw.png
+   * - .. image:: _static/bear_paw.png
           :width: 50px
      - P1 & P2
      - Control: colored and B&W  
        Biased: only B&W
      - 20
      - Control classifies color images; biased does not.
-   * - .. image:: basis_images/banana.png
+   * - .. image:: _static/banana.png
           :width: 50px
      - P1 & P2
      - Control: regular & 90° rotated  
        Biased: only regular
      - 30
      - Control classifies rotated images; biased does not.
-   * - .. image:: basis_images/horse.png
+   * - .. image:: _static/horse.png
           :width: 50px
      - P1 & P2
      - Control: regular & zoomed  
        Biased: only regular
      - 60
      - Control classifies zoomed images; biased does not.
-   * - .. image:: basis_images/shark.png
+   * - .. image:: _static/shark.png
           :width: 50px
      - P1 & P2
      - Control: regular & zoomed  
        Biased: only regular
      - 30
      - Control classifies zoomed images; biased does not.
-   * - .. image:: basis_images/triangle.png
+   * - .. image:: _static/triangle.png
           :width: 50px
      - P1 & P2
      - Control: regular, rotated, and zoomed  
