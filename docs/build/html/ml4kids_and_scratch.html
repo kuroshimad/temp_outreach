@@ -1,0 +1,409 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>ML for Kids × Scratch — Symmetry Project &mdash; ML4kidsOutreach 2025 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Sample Dataset" href="sample_dataset.html" />
+    <link rel="prev" title="Using the Symmetry Code" href="usage.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> ML4kidsOutreach
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Using the Symmetry Code</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">ML for Kids × Scratch — Symmetry Project</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#understanding-symmetry-groups">Understanding Symmetry Groups</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#why-does-this-matter">Why does this matter?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#training-a-machine-learning-model">Training a Machine Learning Model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#writing-a-scratch-program">Writing a Scratch Program</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#other-datasets">Other Datasets</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="sample_dataset.html">Sample Dataset</a></li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">ML4kidsOutreach</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>ML for Kids × Scratch — Symmetry Project</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/ml4kids_and_scratch.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="ml-for-kids-scratch-symmetry-project">
+<span id="ml4kids-and-scratch"></span><h1>ML for Kids × Scratch — Symmetry Project<a class="headerlink" href="#ml-for-kids-scratch-symmetry-project" title="Permalink to this headline">¶</a></h1>
+<p>Welcome to the Symmetry Explorer! This project helps you learn about symmetry in a fun way using machine learning and colorful patterns.</p>
+<p>This project combines <a class="reference external" href="https://machinelearningforkids.co.uk">Machine Learning for Kids</a> and <a class="reference external" href="https://scratch.mit.edu/">Scratch</a> to perform pattern classification. There are three parts to this:</p>
+<ol class="arabic simple">
+<li><p><strong>Understand the Symmetry Group</strong></p></li>
+<li><p><strong>Train your ML model using ML for Kids</strong></p></li>
+<li><p><strong>Try it out using *Scratch*!</strong></p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>What You’ll Do</strong>
+- Train a machine learning model to recognize symmetry patterns
+- Test it in Scratch using colorful images
+- Compare how different training data affects what the computer learns</p>
+</div>
+<div class="section" id="understanding-symmetry-groups">
+<h2>Understanding Symmetry Groups<a class="headerlink" href="#understanding-symmetry-groups" title="Permalink to this headline">¶</a></h2>
+<p>Before using machine learning, let’s learn what symmetry groups are!</p>
+<p>A symmetry group describes how patterns repeat or remain invariant under:</p>
+<ul class="simple">
+<li><p>flips (like looking in a mirror)</p></li>
+<li><p>rotations (like turning a steering wheel)</p></li>
+<li><p>translations (like tiling a floor)</p></li>
+<li><p>or combinations (like flipping and then rotating)</p></li>
+</ul>
+<p>There are 17 wallpaper symmetry groups in total. This project uses two examples:</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="docs/P1_example_blue.png"><img alt="P1 symmetry example" src="docs/P1_example_blue.png" style="width: 200px;" /></a>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="docs/P2_example_blue.png"><img alt="P2 symmetry example" src="docs/P2_example_blue.png" style="width: 200px;" /></a>
+</div>
+<p><strong>P1 Symmetry Group</strong> — No symmetry</p>
+<p>This pattern doesn’t repeat in a special way. It is just a simple copy of the same pattern.</p>
+<p><strong>P2 Symmetry Group</strong> — 180° Rotation Symmetry</p>
+<p>This pattern looks upside down in alternating rows due to 180° rotational symmetry.</p>
+<div class="section" id="why-does-this-matter">
+<h3>Why does this matter?<a class="headerlink" href="#why-does-this-matter" title="Permalink to this headline">¶</a></h3>
+<p>These symmetry groups help us understand pattern repetition — and our goal is to train a computer to tell them apart. This may be easy for us, but not for a machine!</p>
+</div>
+</div>
+<div class="section" id="training-a-machine-learning-model">
+<h2>Training a Machine Learning Model<a class="headerlink" href="#training-a-machine-learning-model" title="Permalink to this headline">¶</a></h2>
+<p>To train a model, we use the <a class="reference external" href="https://machinelearningforkids.co.uk">Machine Learning for Kids</a> platform.</p>
+<ol class="arabic simple">
+<li><p><strong>Log in or Sign up</strong>
+- Visit the <a class="reference external" href="https://machinelearningforkids.co.uk/#!/login">login page</a>.
+- Log in, sign up, or try it without signing up.</p></li>
+<li><p><strong>Create a New Project</strong>
+- Go to <strong>Projects</strong> in the top menu.
+- Click <strong>add a new project</strong>
+- Name your project
+- Choose <strong>recognizing images</strong> as the project type
+- Select <strong>In your web browser</strong> as storage
+- Click <strong>CREATE</strong></p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="docs/ml4kids_new_project.png"><img alt="docs/ml4kids_new_project.png" src="docs/ml4kids_new_project.png" style="width: 1000px;" /></a>
+</div>
+<p>After clicking <strong>CREATE</strong>, you should see this screen:</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="docs/ml4kids_project_home.png"><img alt="docs/ml4kids_project_home.png" src="docs/ml4kids_project_home.png" style="width: 1000px;" /></a>
+</div>
+<ol class="arabic simple" start="3">
+<li><p><strong>Train the Model</strong>
+- Click <strong>Train</strong> (①)
+- Click <strong>Add new label</strong> (top right) to create classes
+- Add <cite>P1</cite> and <cite>P2</cite> as your labels</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="docs/ml4kids_train_w_arrow.png"><img alt="docs/ml4kids_train_w_arrow.png" src="docs/ml4kids_train_w_arrow.png" style="width: 1000px;" /></a>
+</div>
+<p>Use images from:
+- P1: <a class="reference external" href="https://www.crystalmathatnyu.org/p1_general">https://www.crystalmathatnyu.org/p1_general</a>
+- P2: <a class="reference external" href="https://www.crystalmathatnyu.org/p2_general">https://www.crystalmathatnyu.org/p2_general</a></p>
+<p>Drag-and-drop selected images into their corresponding classes:</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="docs/Before_drag_w_cursor.png"><img alt="docs/Before_drag_w_cursor.png" src="docs/Before_drag_w_cursor.png" style="width: 400px;" /></a>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="docs/After_drag_w_cursor.png"><img alt="docs/After_drag_w_cursor.png" src="docs/After_drag_w_cursor.png" style="width: 400px;" /></a>
+</div>
+<ol class="arabic simple" start="4">
+<li><p><strong>Train and Test the Model</strong>
+- Go back to the previous page
+- Click <strong>Learn &amp; Test</strong> (②)
+- Wait for training to complete (status = <strong>Available</strong>)
+- If an <strong>unknown error</strong> occurs, close the tab and retry. Clearing the browser cache may help.</p></li>
+<li><p><strong>Use the Model in Scratch</strong>
+- Return to the project page
+- Click <strong>Make</strong> (③)
+- Click <strong>Open in Scratch 3</strong> to launch Scratch with your ML model linked</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="docs/scratch_init.png"><img alt="docs/scratch_init.png" src="docs/scratch_init.png" style="width: 1000px;" /></a>
+</div>
+</div>
+<div class="section" id="writing-a-scratch-program">
+<h2>Writing a Scratch Program<a class="headerlink" href="#writing-a-scratch-program" title="Permalink to this headline">¶</a></h2>
+<p>Download the Scratch example project here:
+<a class="reference external" href="https://github.com/rogalj/dmref-outreach/blob/main/mlforkids/patterns/simpler_figs/dataset/paw_dataset/DK_gen_template_with_paw_all.sb3">Example Scratch Project (sb3)</a></p>
+<p>(Right-click → “Save link as…” if it doesn’t auto-download.)</p>
+<ol class="arabic simple">
+<li><p><strong>Load the Template Project</strong>
+- In Scratch, go to <strong>File → Load from your computer</strong></p></li>
+<li><p><strong>Modify the Code</strong>
+- Add ML elements from the <strong>Extensions</strong> section
+- Insert <code class="docutils literal notranslate"><span class="pre">recognise</span> <span class="pre">image</span> <span class="pre">costume</span> <span class="pre">image</span> <span class="pre">(confidence)</span></code> into the <code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">conf</span> <span class="pre">to</span></code> block
+- Insert <code class="docutils literal notranslate"><span class="pre">recognise</span> <span class="pre">image</span> <span class="pre">costume</span> <span class="pre">image</span> <span class="pre">=</span> <span class="pre">P1</span></code> or <code class="docutils literal notranslate"><span class="pre">=</span> <span class="pre">P2</span></code> in the <code class="docutils literal notranslate"><span class="pre">if</span></code> condition</p></li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="docs/scrtach_with_template.png"><img alt="docs/scrtach_with_template.png" src="docs/scrtach_with_template.png" style="width: 1000px;" /></a>
+</div>
+</div>
+<div class="section" id="other-datasets">
+<h2>Other Datasets<a class="headerlink" href="#other-datasets" title="Permalink to this headline">¶</a></h2>
+<p>The <code class="docutils literal notranslate"><span class="pre">dataset</span></code> folder contains image classification examples. Summary:</p>
+<table class="colwidths-given docutils align-default" id="id2">
+<caption><span class="caption-text">Dataset Summary</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 22%" />
+<col style="width: 11%" />
+<col style="width: 44%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Image</p></th>
+<th class="head"><p>Symmetry Group</p></th>
+<th class="head"><p>Training Set</p></th>
+<th class="head"><p># of Images Used</p></th>
+<th class="head"><p>Observation</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><a class="reference internal image-reference" href="basis_images/deer.png"><img alt="basis_images/deer.png" src="basis_images/deer.png" style="width: 50px;" /></a>
+</td>
+<td><p>P1 &amp; P2</p></td>
+<td><p>Control: colored and B&amp;W
+Biased: only B&amp;W</p></td>
+<td><p>30</p></td>
+<td><p>Control classifies color images; biased does not.</p></td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal image-reference" href="basis_images/bear_paw.png"><img alt="basis_images/bear_paw.png" src="basis_images/bear_paw.png" style="width: 50px;" /></a>
+</td>
+<td><p>P1 &amp; P2</p></td>
+<td><p>Control: colored and B&amp;W
+Biased: only B&amp;W</p></td>
+<td><p>20</p></td>
+<td><p>Control classifies color images; biased does not.</p></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal image-reference" href="basis_images/banana.png"><img alt="basis_images/banana.png" src="basis_images/banana.png" style="width: 50px;" /></a>
+</td>
+<td><p>P1 &amp; P2</p></td>
+<td><p>Control: regular &amp; 90° rotated
+Biased: only regular</p></td>
+<td><p>30</p></td>
+<td><p>Control classifies rotated images; biased does not.</p></td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal image-reference" href="basis_images/horse.png"><img alt="basis_images/horse.png" src="basis_images/horse.png" style="width: 50px;" /></a>
+</td>
+<td><p>P1 &amp; P2</p></td>
+<td><p>Control: regular &amp; zoomed
+Biased: only regular</p></td>
+<td><p>60</p></td>
+<td><p>Control classifies zoomed images; biased does not.</p></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal image-reference" href="basis_images/shark.png"><img alt="basis_images/shark.png" src="basis_images/shark.png" style="width: 50px;" /></a>
+</td>
+<td><p>P1 &amp; P2</p></td>
+<td><p>Control: regular &amp; zoomed
+Biased: only regular</p></td>
+<td><p>30</p></td>
+<td><p>Control classifies zoomed images; biased does not.</p></td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal image-reference" href="basis_images/triangle.png"><img alt="basis_images/triangle.png" src="basis_images/triangle.png" style="width: 50px;" /></a>
+</td>
+<td><p>P1 &amp; P2</p></td>
+<td><p>Control: regular, rotated, and zoomed
+Biased: only regular</p></td>
+<td><p>90</p></td>
+<td><p>Control classifies zoomed/rotated images; biased does not classify rotated images.</p></td>
+</tr>
+</tbody>
+</table>
+<p>Try it out and see what your computer learns!</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="sample_dataset.html" class="btn btn-neutral float-right" title="Sample Dataset" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="usage.html" class="btn btn-neutral float-left" title="Using the Symmetry Code" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2025, Daisuke Kuroshima.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

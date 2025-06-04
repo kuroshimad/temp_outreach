@@ -1,0 +1,19 @@
+Project Structure
+=================
+
+Overview of main directories and files.
+
+Directories
+-----------
+
+- `notebooks/`: Google Colab notebooks
+- `data/`: Sample images and training data
+- `scripts/`: Utility scripts for tiling, ML, and exporting
+- `docs/`: This documentation
+
+Important Files
+---------------
+
+- `main.py`: Symmetry generation entry point
+- `ml4kids_utils.py`: Interface with ML4Kids models
+- `README.md`: High-level overview

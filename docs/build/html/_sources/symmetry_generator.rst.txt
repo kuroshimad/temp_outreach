@@ -1,0 +1,29 @@
+Project Structure
+==================
+
+This document describes the structure of the `ML4kidsOutreach` project.
+
+Directories
+-----------
+
+- **my_package/**: Main package with core functionality.
+- **data/**: Contains datasets used for training and testing.
+- **notebooks/**: Jupyter notebooks demonstrating model usage and experiments.
+- **scripts/**: Standalone scripts for data processing and model training.
+
+Python Files
+------------
+
+- **main.py**: Entry point of the application.
+- **utils.py**: Utility functions shared across modules.
+- **model.py**: Definition of machine learning models used in the project.
+- **train.py**: Training pipeline script.
+
+Usage
+-----
+
+To run the main program:
+
+.. code-block:: bash
+
+    python main.py --config config.yaml
