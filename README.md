@@ -4,10 +4,10 @@
 
 Welcome to the Symmetry Explorer! This project helps you learn about symmetry in a fun way using machine learning and colorful patterns.
 
-This project combines [Machine Learning for Kids](https://machinelearningforkids.co.uk) platform and [Scratch](https://scratch.mit.edu/) platform to perform pattern classification. There are three parts to this:
+This project combines [The Machine Learning for Kids](https://machinelearningforkids.co.uk) platform and [Scratch](https://scratch.mit.edu/) platform to perform pattern classification. There are three parts to this:
 
-  1. **Understand they Symmetry Group**
-  2. **Train your ML using ML for kids**
+  1. **Understand the Symmetry Group**
+  2. **Train your ML models using ML for kids**
   3. **Try out using *Scratch*!**
 
 
@@ -37,7 +37,7 @@ In total, we have 17 different patterns. Let’s look at two common symmetry gro
 </kbd>
 
 ### P1 Symmetry Group — No symmetry
-The right picture has P1 symmetry. This pattern doesn’t repeat in any special way. It is just copy of the same pattern like following.
+The right picture has P1 symmetry. This pattern doesn’t repeat in any special way. It is just a copy of the same pattern, like the following.
 
 ### P2 Symmetry Group  — 180° Rotation Symmetry
 The left picture has P2 symmetry.The pattern looks upsode down in the next row. 
@@ -47,7 +47,7 @@ The left picture has P2 symmetry.The pattern looks upsode down in the next row.
 These symmetry groups help us understand how patterns repeat — and the goal of this project is to train a computer to tell them apart! This might look easy for us — but not for a computer! We'll teach the computer what to look for and test whether it understands.
 
 ## Training a machine learning model
-To train an ML model, we use the [Machine Learning for Kids](https://machinelearningforkids.co.uk) platform:
+To train an ML model, we use the [The Machine Learning for Kids](https://machinelearningforkids.co.uk) platform:
   1. **Log in or sign up:** Visit the [login](https://machinelearningforkids.co.uk/#!/login) page and login, sign up, or just try it without signing up.
   2. **Create a new project:**
      - Navigate to `Projects` in the top menu.
