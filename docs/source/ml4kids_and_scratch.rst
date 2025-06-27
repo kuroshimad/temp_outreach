@@ -5,10 +5,10 @@ ML for Kids × Scratch — Symmetry Project
 
 Welcome to the Symmetry Explorer! This project helps you learn about symmetry in a fun way using machine learning and colorful patterns.
 
-This project combines `Machine Learning for Kids <https://machinelearningforkids.co.uk>`_ and `Scratch <https://scratch.mit.edu/>`_ to perform pattern classification. There are three parts to this:
+This project combines `The Machine Learning for Kids <https://machinelearningforkids.co.uk>`_ and `Scratch <https://scratch.mit.edu/>`_ to perform pattern classification. There are three parts to this:
 
 1. **Understand the Symmetry Group**
-2. **Train your ML model using ML for Kids**
+2. **Train your ML models using ML for Kids**
 3. **Try it out using *Scratch*!**
 
 .. note::
@@ -54,13 +54,13 @@ This pattern looks upside down in alternating rows due to 180° rotational symme
 Why does this matter?
 ^^^^^^^^^^^^^^^^^^^^^
 
-These symmetry groups help us understand pattern repetition — and our goal is to train a computer to tell them apart. This may be easy for us, but not for a machine!
+These symmetry groups help us understand the pattern repetition — and our goal is to train a computer to tell them apart. This may be easy for us, but not for a machine!
 
 
 Training a Machine Learning Model
 ---------------------------------
 
-To train a model, we use the `Machine Learning for Kids <https://machinelearningforkids.co.uk>`_ platform.
+To train a model, we use the `The Machine Learning for Kids <https://machinelearningforkids.co.uk>`_ platform.
 
 1. **Log in or Sign up**
    - Visit the `login page <https://machinelearningforkids.co.uk/#!/login>`_.
